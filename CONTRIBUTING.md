@@ -23,7 +23,7 @@ pip install -c constraints.txt -e ".[dev]"
 A change is verified when the following commands succeed. The CI workflow runs the same commands.
 
 ```bash
-ruff check src tests tools
+python -m ruff check src tests tools
 python -m compileall -q src tests tools
 python -m pytest
 python tools/check_docs.py
@@ -100,6 +100,7 @@ Each file maps keys to interface texts. Placeholders in `{braces}` are identical
 | New interface text | Add the key to both interface catalogues. |
 | New interface language | Add `data/ui/<code>.json` with all keys, add the language to every `labels`, `descriptions` and `hints` object in the data files, and add the code to `UI_LANGUAGES`. |
 | New interface event | Register it after the existing events in `ui/app.py`. Gradio numbers events with the same function name in the order of registration (`run`, `run_1`, …), and the interface tests address events by these names. |
+| Updated dependencies | Install with each supported Python version without `constraints.txt`, run the tests, save `pip freeze` per version and merge the outputs with `python tools/merge_constraints.py 3.11=… 3.12=… 3.13=… > constraints.txt`. Packages that differ between versions receive environment markers. |
 | Changed limit or default | Update the documentation in the same change. `tests/test_docs.py` compares the figures and defaults stated in the documentation with the code. |
 | Skill export | The format rules are implemented in `core/skill.py` and checked by `tests/test_skill.py`. A change of the published format requires changes in both files. |
 | New text language | Add `data/lang/<code>.json` with every example key and indicator list, and add the code to `TEXT_LANGUAGES`. |

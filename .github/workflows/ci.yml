@@ -11,20 +11,21 @@ permissions:
 
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    # A fixed image: a change of the image behind ubuntu-latest must not change the results.
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
         python: ["3.11", "3.12", "3.13"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
       - name: Install
         run: pip install -c constraints.txt -e ".[dev]"
       - name: Lint
-        run: ruff check src tests tools
+        run: python -m ruff check src tests tools
       - name: Compile
         run: python -m compileall -q src tests tools
       - name: Tests
