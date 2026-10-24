@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 
 import pytest
+
 from text_style_transfer.config import Config
 from text_style_transfer.core import indicators, metrics, pipeline, profile_code, profiles, skill
 from text_style_transfer.ui.app import TARGET_FIELDS

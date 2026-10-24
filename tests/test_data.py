@@ -85,6 +85,7 @@ def test_profile_directory(tmp_path):
     import json
 
     import pytest
+
     from text_style_transfer.config import Config
     from text_style_transfer.core.catalog import CatalogError
     from text_style_transfer.ui.app import build_services

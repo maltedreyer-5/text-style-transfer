@@ -44,14 +44,7 @@ from ..core.models import (  # noqa: E402
     Profile,
     SliderType,
 )
-from ..core.pipeline import (  # noqa: E402
-    MAX_PAIRS,
-    PATH_DIRECT,
-    PATH_NEUTRAL,
-    Pipeline,
-    PipelineError,
-    neutral_cache_key,
-)
+from ..core.pipeline import MAX_PAIRS, PATH_DIRECT, PATH_NEUTRAL, Pipeline, PipelineError, neutral_cache_key  # noqa: E402
 from ..core.profile_code import ProfileCodeError  # noqa: E402
 from ..core.profiles import (  # noqa: E402
     MAX_CUSTOM_SLIDERS,

@@ -4,6 +4,7 @@ import base64
 import zlib
 
 import pytest
+
 from text_style_transfer.core import profile_code
 from text_style_transfer.core.models import Profile
 from text_style_transfer.core.profiles import ProfileError, profile_from_dict, profile_to_dict

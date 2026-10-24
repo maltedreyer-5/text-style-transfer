@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Malte Dreyer
 # SPDX-License-Identifier: MIT
 import pytest
+
 from text_style_transfer.config import Config, ConfigError
 from text_style_transfer.core import prompts
 from text_style_transfer.core.checks import check_result, detect_drift, find_conflicts, numbers

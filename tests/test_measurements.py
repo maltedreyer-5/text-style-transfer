@@ -4,6 +4,7 @@
 import pytest
 from conftest import make_config
 from fake_llm import FakeLLM
+
 from text_style_transfer.core import prompts
 from text_style_transfer.core.checks import check_directions, check_targets, find_target_conflicts
 from text_style_transfer.core.indicators import measure_indicators
