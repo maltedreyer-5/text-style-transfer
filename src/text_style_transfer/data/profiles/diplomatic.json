@@ -1,0 +1,29 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "diplomatic",
+  "name": "Diplomatic",
+  "labels": {
+    "en": "🤝 Diplomatic",
+    "de": "🤝 Diplomatisch"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": 4,
+    "confident": -5,
+    "direct": -8,
+    "friendly": 5,
+    "hedging": 10,
+    "polite": 10
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

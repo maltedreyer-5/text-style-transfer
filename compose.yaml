@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2026 Malte Dreyer
+# SPDX-License-Identifier: MIT
+services:
+  text-style-transfer:
+    build: .
+    image: text-style-transfer:1.0.0
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "127.0.0.1:7860:7860"   # reachable from this machine only; see docs/operations.md
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    restart: unless-stopped
+    # Profiles provided by the operator, mounted read-only:
+    # volumes:
+    #   - ./profiles:/profiles:ro
+    # environment:
+    #   TST_PROFILE_DIR: /profiles

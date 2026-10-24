@@ -1,0 +1,28 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "magical_realism",
+  "name": "Magical realism",
+  "labels": {
+    "en": "✨ Magical realism",
+    "de": "✨ Magischer Realismus"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -4,
+    "magical": 7,
+    "objective": 5,
+    "poetic": 5,
+    "precise": 6
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

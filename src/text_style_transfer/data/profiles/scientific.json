@@ -1,0 +1,37 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "scientific",
+  "name": "Scientific",
+  "labels": {
+    "en": "🔬 Scientific",
+    "de": "🔬 Wissenschaftlich"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": 5,
+    "active": -7,
+    "cefr_level": "C2",
+    "hedging": 8,
+    "nominal": 8,
+    "objective": 10,
+    "personal": -10,
+    "precise": 10,
+    "structured": 8,
+    "technical_terms": 8
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "Academic register: precise terminology, hedged claims where the source text expresses uncertainty, impersonal phrasing, explicit logical connectives between statements.",
+    "de": "Wissenschaftliches Register: präzise Terminologie, vorsichtige Formulierungen, wo der Ausgangstext Unsicherheit ausdrückt, unpersönliche Formulierungen, ausdrückliche logische Verknüpfungen zwischen den Aussagen."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "childrens_book",
+  "name": "Children's book",
+  "labels": {
+    "en": "📚 Children's book",
+    "de": "📚 Kinderbuch"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -8,
+    "audience_age": "children",
+    "cefr_level": "A1",
+    "cheerful": 7,
+    "clarity": 10,
+    "friendly": 10,
+    "length": -5,
+    "nominal": -8,
+    "simple": 10
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

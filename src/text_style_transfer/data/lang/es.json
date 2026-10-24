@@ -1,0 +1,162 @@
+{
+  "code": "es",
+  "endonym": "Español",
+  "english_name": "Spanish",
+  "decimal_separator": ",",
+  "group_separators": [
+    ".",
+    " ",
+    " "
+  ],
+  "quotes": [
+    [
+      "«",
+      "»"
+    ],
+    [
+      "“",
+      "”"
+    ],
+    [
+      "\"",
+      "\""
+    ]
+  ],
+  "examples": {
+    "formal.positive": "tratamiento de usted, oraciones completas, conectores cultos como «asimismo», «por consiguiente»",
+    "formal.negative": "tuteo, coloquialismos, muletillas como «pues», «vale», «o sea», «bueno»",
+    "polite.positive": "«por favor», «¿podría usted…?», condicional de cortesía, agradecimientos, justificaciones",
+    "polite.negative": "imperativos secos, «tiene que», sin fórmulas de cortesía, reproches directos",
+    "personal.positive": "«yo», «nosotros», «usted» o «tú» como sujetos, verbos en primera persona",
+    "personal.negative": "«se» impersonal, «uno», voz pasiva, sujetos inanimados",
+    "confident.positive": "indicativo, futuro, «sin duda», sin matizaciones",
+    "confident.negative": "condicional, «quizás», «en mi modesta opinión»",
+    "hedging": "«podría», «parece», «es posible que» con subjuntivo, «en cierta medida»",
+    "nominal.positive": "nominalizaciones en -ción, -miento, -dad, «llevar a cabo un análisis», cadenas de complementos con «de»",
+    "nominal.negative": "verbos plenos («analizar» en lugar de «llevar a cabo un análisis»), pocas nominalizaciones",
+    "active.positive": "voz activa con agentes nombrados",
+    "active.negative": "pasiva con «ser» («fue aprobado»), pasiva refleja («se decidió»)",
+    "nostalgic": "pretérito imperfecto, «en aquel entonces», «antes», «en aquellos años»",
+    "intensifiers": "«muy», «extremadamente», «totalmente», «apenas», «un poco»",
+    "subjectivity_example": "«La autora considera X como Y»"
+  },
+  "preamble_patterns": [
+    "^(aquí (tienes|está|va)|a continuación)\\b.{0,80}:\\s*$",
+    "^(claro|por supuesto|desde luego|con gusto)\\b.{0,80}:\\s*$",
+    "^(claro|por supuesto|desde luego|con gusto)\\s*[!.]?\\s*$",
+    "^(el )?texto (neutralizado|reescrito|transformado|revisado)\\s*:?\\s*$",
+    "^(resultado|respuesta)\\s*:\\s*$"
+  ],
+  "trailer_patterns": [
+    "^\\**(nota|observación|explicación)\\**\\s*:.*$",
+    "^he (reescrito|adaptado|neutralizado|transformado)\\b.{0,200}$",
+    "^\\(.{0,200}(adaptado|reescrito|neutralizado|transformado).{0,60}\\)$"
+  ],
+  "function_words": [
+    "el",
+    "la",
+    "los",
+    "las",
+    "de",
+    "del",
+    "y",
+    "que",
+    "en",
+    "un",
+    "una",
+    "es",
+    "por",
+    "con",
+    "para",
+    "no",
+    "se",
+    "al",
+    "lo",
+    "como",
+    "más",
+    "pero",
+    "su",
+    "sus",
+    "le",
+    "ya",
+    "este",
+    "esta",
+    "entre",
+    "cuando",
+    "muy"
+  ],
+  "abbreviations": [
+    "Sr.",
+    "Sra.",
+    "Dr.",
+    "p. ej.",
+    "Ud.",
+    "Uds."
+  ],
+  "indicators": {
+    "personal": [
+      "yo",
+      "me",
+      "mí",
+      "mi",
+      "mis",
+      "conmigo",
+      "nosotros",
+      "nosotras",
+      "nos",
+      "nuestro",
+      "nuestra",
+      "nuestros",
+      "nuestras",
+      "tú",
+      "te",
+      "ti",
+      "tu",
+      "tus",
+      "contigo",
+      "vosotros",
+      "vosotras",
+      "os",
+      "vuestro",
+      "vuestra",
+      "vuestros",
+      "vuestras",
+      "usted",
+      "ustedes"
+    ],
+    "formal_address": [
+      "usted",
+      "ustedes"
+    ],
+    "formal_case_sensitive": false,
+    "familiar_address": [
+      "tú",
+      "ti",
+      "tu",
+      "tus",
+      "contigo",
+      "vosotros",
+      "vosotras",
+      "os"
+    ],
+    "familiar_regex": "",
+    "hedges": [
+      "podría",
+      "podrían",
+      "podrías",
+      "podríamos",
+      "podríais",
+      "quizás",
+      "quizá",
+      "tal vez",
+      "posiblemente",
+      "probablemente",
+      "parece",
+      "parecen",
+      "aparentemente",
+      "acaso",
+      "en cierta medida"
+    ],
+    "nominal_suffix": "(?:ción|sión|miento|dad|tud|anza|encia|ismo)(?:es|s)?$"
+  }
+}

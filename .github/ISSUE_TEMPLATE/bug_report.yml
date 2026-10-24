@@ -1,0 +1,60 @@
+name: Bug report
+description: Something does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not paste API keys, `.env` files, or texts that contain personal data.**
+        Replace real content with a short made-up text that shows the problem.
+        Security problems: please use private vulnerability reporting (see SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: "Version (`text-style-transfer --version`)"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: Installation
+      options: [pip, Docker / compose, other]
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Python version and operating system"
+  - type: input
+    id: endpoint
+    attributes:
+      label: Language-model endpoint
+      description: Server software or provider and model name, if known. Not the URL if it is internal.
+  - type: input
+    id: languages
+    attributes:
+      label: "Text language and interface language"
+  - type: dropdown
+    id: path
+    attributes:
+      label: Affected function
+      options: ["My style → skill (guided tab)", "Skill export", "Neutralise, then style", "Style directly", Copy a style, Refine, Profile code or file, "Measured targets or measurement table", Start / configuration, other]
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: "Expected and actual result"
+      description: "Include the status line and warnings shown."
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log excerpt
+      description: The lines around the error. The log contains no texts, but check it for internal host names before posting.
+      render: text

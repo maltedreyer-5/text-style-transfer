@@ -1,0 +1,849 @@
+{
+  "format": "text-style-sliders",
+  "version": 1,
+  "sliders": [
+    {
+      "id": "emotional",
+      "type": "polar",
+      "group": "tone_emotion",
+      "labels": {
+        "en": "Emotional",
+        "de": "Emotional"
+      },
+      "opposite_labels": {
+        "en": "Matter-of-fact",
+        "de": "Nüchtern"
+      },
+      "descriptions": {
+        "en": "Emotionally charged vs. sober, factual language",
+        "de": "Gefühlsbetonte vs. sachlich-nüchterne Sprache"
+      },
+      "positive": {
+        "heading": "Emotional",
+        "instruction": "Make the feelings of the people involved audible in the language. Choose words that carry an emotion and let the sentence rhythm carry the mood.",
+        "markers": "emotion words, evaluative adjectives, short sentences in moments of tension, longer ones in calm passages"
+      },
+      "negative": {
+        "heading": "Matter-of-fact",
+        "instruction": "Describe only facts, actions and results. Choose words with as little emotional charge as possible.",
+        "markers": "descriptive verbs, neutral adjectives, even sentence structure, no exclamations"
+      }
+    },
+    {
+      "id": "friendly",
+      "type": "polar",
+      "group": "tone_emotion",
+      "labels": {
+        "en": "Friendly",
+        "de": "Freundlich"
+      },
+      "opposite_labels": {
+        "en": "Cold",
+        "de": "Kalt"
+      },
+      "descriptions": {
+        "en": "Warm, inviting vs. distant tone",
+        "de": "Warmherziger, einladender vs. distanzierter Ton"
+      },
+      "positive": {
+        "heading": "Friendly",
+        "instruction": "Turn towards the readers. Show understanding for their situation and phrase requests as invitations.",
+        "markers": "direct address, connecting phrases, benevolent reasons"
+      },
+      "negative": {
+        "heading": "Cold",
+        "instruction": "Keep a consistent distance from the readers. State only facts and requirements without addressing the person.",
+        "markers": "impersonal constructions, terse statements, no address, no concessions"
+      }
+    },
+    {
+      "id": "optimistic",
+      "type": "polar",
+      "group": "tone_emotion",
+      "labels": {
+        "en": "Optimistic",
+        "de": "Optimistisch"
+      },
+      "opposite_labels": {
+        "en": "Pessimistic",
+        "de": "Pessimistisch"
+      },
+      "descriptions": {
+        "en": "Basic attitude and expectation about outcome and future",
+        "de": "Grundhaltung und Erwartung an Ausgang und Zukunft"
+      },
+      "positive": {
+        "heading": "Optimistic",
+        "instruction": "Present developments so that opportunities and a good outcome are in the foreground. Interpret open questions as possibilities.",
+        "markers": "references to the future, vocabulary of opportunity, emphasis on what is achievable"
+      },
+      "negative": {
+        "heading": "Pessimistic",
+        "instruction": "Present developments so that risks and a bad outcome are in the foreground. Interpret open questions as dangers.",
+        "markers": "vocabulary of risk, restrictions, emphasis on uncertainty"
+      }
+    },
+    {
+      "id": "cheerful",
+      "type": "polar",
+      "group": "tone_emotion",
+      "labels": {
+        "en": "Cheerful",
+        "de": "Heiter"
+      },
+      "opposite_labels": {
+        "en": "Gloomy",
+        "de": "Düster"
+      },
+      "descriptions": {
+        "en": "Cheerful vs. gloomy basic mood",
+        "de": "Fröhliche vs. düstere Grundstimmung"
+      },
+      "positive": {
+        "heading": "Cheerful",
+        "instruction": "Keep the basic mood light and bright. Choose images and comparisons from the realm of light, movement and lightness.",
+        "markers": "bright imagery, light rhythm, buoyant verbs"
+      },
+      "negative": {
+        "heading": "Gloomy",
+        "instruction": "Keep the basic mood heavy and dark. Choose images and comparisons from the realm of darkness, confinement and standstill.",
+        "markers": "dark imagery, halting rhythm, heavy verbs, motifs of shadow and cold"
+      }
+    },
+    {
+      "id": "affectionate",
+      "type": "intensity",
+      "group": "tone_emotion",
+      "labels": {
+        "en": "Affectionate",
+        "de": "Liebevoll"
+      },
+      "descriptions": {
+        "en": "Tender, warm-hearted expression",
+        "de": "Zärtlicher, gefühlvoller Ausdruck"
+      },
+      "positive": {
+        "heading": "Affectionate",
+        "instruction": "Write with affection for what is described. Take details seriously, dwell on them and choose words that create closeness.",
+        "markers": "terms of endearment, slow rhythm, attentive observation of detail"
+      }
+    },
+    {
+      "id": "dramatic",
+      "type": "intensity",
+      "group": "tone_emotion",
+      "labels": {
+        "en": "Dramatic",
+        "de": "Dramatisch"
+      },
+      "descriptions": {
+        "en": "Building tension, theatrical elements, pathos",
+        "de": "Spannungsaufbau, theatralische Elemente, Pathos"
+      },
+      "positive": {
+        "heading": "Dramatic",
+        "instruction": "Build tension by rearranging the existing statements: hold back what matters and prepare the climax. Use pauses and escalation, but no invented twists.",
+        "markers": "short punchy sentences at turning points, climactic sequences, delayed resolution"
+      }
+    },
+    {
+      "id": "formal",
+      "type": "polar",
+      "group": "formality",
+      "labels": {
+        "en": "Formal",
+        "de": "Förmlich"
+      },
+      "opposite_labels": {
+        "en": "Informal",
+        "de": "Informell"
+      },
+      "descriptions": {
+        "en": "Degree of linguistic formality",
+        "de": "Grad der sprachlichen Formalität"
+      },
+      "positive": {
+        "heading": "Formal",
+        "instruction": "Use standard language and formal phrasing throughout: the formal form of address where the language has one, complete sentences, no contractions or clipped forms.",
+        "markers": "formal address, elevated connectives, complete wording",
+        "example_key": "formal.positive"
+      },
+      "negative": {
+        "heading": "Informal",
+        "instruction": "Use everyday language as among acquaintances: the familiar form of address where the language has one, contractions, relaxed phrasing and conversational particles.",
+        "markers": "familiar address, colloquial language, contractions, relaxed sentence structure",
+        "example_key": "formal.negative"
+      }
+    },
+    {
+      "id": "polite",
+      "type": "polar",
+      "group": "formality",
+      "labels": {
+        "en": "Polite",
+        "de": "Höflich"
+      },
+      "opposite_labels": {
+        "en": "Rude",
+        "de": "Unhöflich"
+      },
+      "descriptions": {
+        "en": "Respectful vs. curt tone",
+        "de": "Respektvoller vs. schroffer Ton"
+      },
+      "positive": {
+        "heading": "Polite",
+        "instruction": "Phrase requests considerately: ask instead of demanding, give reasons instead of orders, leave the other person room.",
+        "markers": "requests, conditional forms, thanks, reasons",
+        "example_key": "polite.positive"
+      },
+      "negative": {
+        "heading": "Rude",
+        "instruction": "Phrase things curtly and without regard for the other person: demand instead of asking, order instead of explaining. The sharpness is aimed at behaviour and subject matter.",
+        "markers": "imperatives, reproaches, no greetings, harsh escalation",
+        "example_key": "polite.negative"
+      }
+    },
+    {
+      "id": "direct",
+      "type": "polar",
+      "group": "formality",
+      "labels": {
+        "en": "Direct",
+        "de": "Direkt"
+      },
+      "opposite_labels": {
+        "en": "Indirect",
+        "de": "Indirekt"
+      },
+      "descriptions": {
+        "en": "Clear statements vs. cautious circumlocution",
+        "de": "Klare Ansagen vs. vorsichtige Umschreibungen"
+      },
+      "positive": {
+        "heading": "Direct",
+        "instruction": "State the core message in the first sentence and call things by their name.",
+        "markers": "main statement first, short declarative sentences, no softeners"
+      },
+      "negative": {
+        "heading": "Indirect",
+        "instruction": "Approach the core message step by step and paraphrase it. Prepare it instead of naming it.",
+        "markers": "preliminary remarks, hints, core statement late and softened"
+      }
+    },
+    {
+      "id": "personal",
+      "type": "polar",
+      "group": "formality",
+      "labels": {
+        "en": "Personal",
+        "de": "Persönlich"
+      },
+      "opposite_labels": {
+        "en": "Impersonal",
+        "de": "Unpersönlich"
+      },
+      "descriptions": {
+        "en": "First person and direct address vs. impersonal constructions",
+        "de": "Ich/Wir-Form vs. Man/Passiv-Konstruktionen"
+      },
+      "positive": {
+        "heading": "Personal",
+        "instruction": "Name the people who act: first person singular and plural, direct address of the readers.",
+        "markers": "first and second person as sentence subjects",
+        "example_key": "personal.positive"
+      },
+      "negative": {
+        "heading": "Impersonal",
+        "instruction": "Keep the acting persons out of the text: impersonal constructions, things as grammatical subjects, generic pronouns.",
+        "markers": "generic pronouns, passive voice, things as subjects, no address",
+        "example_key": "personal.negative"
+      }
+    },
+    {
+      "id": "confident",
+      "type": "polar",
+      "group": "formality",
+      "labels": {
+        "en": "Confident",
+        "de": "Selbstsicher"
+      },
+      "opposite_labels": {
+        "en": "Modest",
+        "de": "Bescheiden"
+      },
+      "descriptions": {
+        "en": "Authoritative vs. reserved voice",
+        "de": "Autoritative vs. zurückhaltende Stimme"
+      },
+      "positive": {
+        "heading": "Confident",
+        "instruction": "Advocate the statements with full conviction. State instead of weighing.",
+        "markers": "indicative mood, clear statements, no qualifications",
+        "example_key": "confident.positive"
+      },
+      "negative": {
+        "heading": "Modest",
+        "instruction": "Present the statements with restraint. Play down your own achievements and leave room for other views.",
+        "markers": "conditional forms, restrictions, references to the limits of one's own judgement",
+        "example_key": "confident.negative"
+      }
+    },
+    {
+      "id": "simple",
+      "type": "polar",
+      "group": "clarity",
+      "labels": {
+        "en": "Simple",
+        "de": "Einfach"
+      },
+      "opposite_labels": {
+        "en": "Complex",
+        "de": "Komplex"
+      },
+      "descriptions": {
+        "en": "Basic vocabulary vs. foreign words and complex terms",
+        "de": "Grundwortschatz vs. Fremdwörter und komplexe Begriffe"
+      },
+      "positive": {
+        "heading": "Simple",
+        "instruction": "Use only frequent everyday words and short main clauses. Explain what is necessary in simple words.",
+        "markers": "basic vocabulary, one thought per sentence, hardly any subordinate clauses"
+      },
+      "negative": {
+        "heading": "Complex",
+        "instruction": "Use a demanding vocabulary and multi-part sentences with differentiated references.",
+        "markers": "foreign words, technical terms, multiply nested subordinate clauses"
+      }
+    },
+    {
+      "id": "precise",
+      "type": "intensity",
+      "group": "clarity",
+      "labels": {
+        "en": "Precise",
+        "de": "Präzise"
+      },
+      "descriptions": {
+        "en": "Exact, unambiguous wording",
+        "de": "Exakte, unmissverständliche Formulierungen"
+      },
+      "positive": {
+        "heading": "Precise",
+        "instruction": "Phrase every statement so that it allows only one reading. Replace vague words with the exact word without adding facts the source text does not provide.",
+        "markers": "unambiguous references, concrete instead of general terms, no softeners"
+      }
+    },
+    {
+      "id": "clarity",
+      "type": "intensity",
+      "group": "clarity",
+      "labels": {
+        "en": "Clarity",
+        "de": "Klarheit"
+      },
+      "descriptions": {
+        "en": "Comprehensibility and unambiguity",
+        "de": "Verständlichkeit und Eindeutigkeit"
+      },
+      "positive": {
+        "heading": "Clarity",
+        "instruction": "Guide the readers straight through the line of thought: the most important point first, then the explanation, one thought per sentence.",
+        "markers": "clear structure, unambiguous referring words, no insertions"
+      }
+    },
+    {
+      "id": "objective",
+      "type": "intensity",
+      "group": "clarity",
+      "labels": {
+        "en": "Objective",
+        "de": "Sachlich"
+      },
+      "descriptions": {
+        "en": "Fact-oriented without emotional colouring",
+        "de": "Faktenorientiert ohne emotionale Färbung"
+      },
+      "positive": {
+        "heading": "Objective",
+        "instruction": "Restrict yourself to verifiable facts. Choose words without emotional value and without judgement.",
+        "markers": "numbers, data, descriptive verbs, no judgements"
+      }
+    },
+    {
+      "id": "convoluted",
+      "type": "intensity",
+      "group": "clarity",
+      "labels": {
+        "en": "Convoluted",
+        "de": "Verworren"
+      },
+      "descriptions": {
+        "en": "Complex, nested sentence structures",
+        "de": "Komplexe, verschachtelte Satzstrukturen"
+      },
+      "positive": {
+        "heading": "Convoluted",
+        "instruction": "Nest the thoughts within one another: insertions, postponed references, delayed resolution of the sentence arc.",
+        "markers": "long periods, insertions within insertions, late-resolved clause brackets"
+      }
+    },
+    {
+      "id": "hedging",
+      "type": "intensity",
+      "group": "clarity",
+      "labels": {
+        "en": "Hedging",
+        "de": "Hedging"
+      },
+      "descriptions": {
+        "en": "Softening wording (could, possibly, perhaps)",
+        "de": "Abschwächende Formulierungen (könnte, eventuell, möglicherweise)"
+      },
+      "positive": {
+        "heading": "Hedging",
+        "instruction": "Attach reservations to statements and make their scope visibly limited.",
+        "markers": "modal verbs, qualifying adverbs, conditional forms",
+        "example_key": "hedging"
+      }
+    },
+    {
+      "id": "nominal",
+      "type": "polar",
+      "group": "clarity",
+      "labels": {
+        "en": "Nominal",
+        "de": "Nominal"
+      },
+      "opposite_labels": {
+        "en": "Verbal",
+        "de": "Verbal"
+      },
+      "descriptions": {
+        "en": "Nominal style with nominalisations vs. verbal style with active verbs",
+        "de": "Nominalstil mit Substantivierungen vs. Verbalstil mit aktiven Verben"
+      },
+      "positive": {
+        "heading": "Nominal",
+        "instruction": "Express processes through nouns and nominalisations instead of verbs.",
+        "markers": "nominalisations, light-verb constructions, chains of genitive phrases",
+        "example_key": "nominal.positive"
+      },
+      "negative": {
+        "heading": "Verbal",
+        "instruction": "Express processes through full verbs instead of nominalisations.",
+        "markers": "expressive full verbs, few nominalisations, short sentence parts",
+        "example_key": "nominal.negative"
+      }
+    },
+    {
+      "id": "abstract",
+      "type": "polar",
+      "group": "clarity",
+      "labels": {
+        "en": "Abstract",
+        "de": "Abstrakt"
+      },
+      "opposite_labels": {
+        "en": "Concrete",
+        "de": "Konkret"
+      },
+      "descriptions": {
+        "en": "Theoretical and conceptual vs. vivid and tangible",
+        "de": "Theoretisch-konzeptuell vs. anschaulich und greifbar"
+      },
+      "positive": {
+        "heading": "Abstract",
+        "instruction": "Raise the statements to the conceptual level: name principles and categories instead of individual cases.",
+        "markers": "generic terms, principles, no examples"
+      },
+      "negative": {
+        "heading": "Concrete",
+        "instruction": "Make the statements tangible: name the individual case, the visible thing, the concrete action. Use only examples that come from the source text.",
+        "markers": "sensory details, nameable objects, concrete actions"
+      }
+    },
+    {
+      "id": "poetic",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Poetic",
+        "de": "Poetisch"
+      },
+      "descriptions": {
+        "en": "Figurative, lyrical language with metaphors and comparisons",
+        "de": "Bildhafte, lyrische Sprache mit Metaphern und Vergleichen"
+      },
+      "positive": {
+        "heading": "Poetic",
+        "instruction": "Give the statements a linguistic image and pay attention to the sound and rhythm of the sentences.",
+        "markers": "metaphors, comparisons, sound figures, deliberate sentence rhythm"
+      }
+    },
+    {
+      "id": "magical",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Magical",
+        "de": "Magisch"
+      },
+      "descriptions": {
+        "en": "Fairy-tale, fantastic elements",
+        "de": "Märchenhafte, fantastische Elemente"
+      },
+      "positive": {
+        "heading": "Magical",
+        "instruction": "Narrate the existing events as if something wondrous dwelt in them. Transform the presentation, not the plot.",
+        "markers": "fairy-tale phrasing, a marvelling gaze, inanimate things coming alive"
+      }
+    },
+    {
+      "id": "ironic",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Ironic",
+        "de": "Ironisch"
+      },
+      "descriptions": {
+        "en": "Statements that mean the opposite of the literal",
+        "de": "Aussagen, die das Gegenteil des Wörtlichen meinen"
+      },
+      "positive": {
+        "heading": "Ironic",
+        "instruction": "Evaluate the events with words that are far too positive for them, so that the gap to the described facts stands out. The facts themselves remain correctly presented: the evaluation is ironic, not the factual statement.",
+        "markers": "exaggeratedly praising evaluations of grievances, pointed understatement, feigned agreement"
+      }
+    },
+    {
+      "id": "sarcastic",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Sarcastic",
+        "de": "Sarkastisch"
+      },
+      "descriptions": {
+        "en": "Biting mockery aimed at a target",
+        "de": "Beißender Spott, der sich gegen ein Ziel richtet"
+      },
+      "positive": {
+        "heading": "Sarcastic",
+        "instruction": "Make the evaluation of the described events sharp and bitter. The mockery targets the matter, the position or the behaviour, not people as such and not group characteristics. It arises from the existing statements, not from additional ones.",
+        "markers": "bitter undertone, sharp escalation, revealing juxtaposition of existing statements"
+      }
+    },
+    {
+      "id": "funny",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Funny",
+        "de": "Lustig"
+      },
+      "descriptions": {
+        "en": "Humorous, entertaining elements",
+        "de": "Humorvolle, unterhaltende Elemente"
+      },
+      "positive": {
+        "heading": "Funny",
+        "instruction": "Build comedy from the material of the source text: unexpected comparisons, exaggeration, a surprising turn at the end of a sentence.",
+        "markers": "punchlines at the end of sentences, comic comparisons, broken expectations"
+      }
+    },
+    {
+      "id": "provocative",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Provocative",
+        "de": "Provokant"
+      },
+      "descriptions": {
+        "en": "Controversial, challenging escalation",
+        "de": "Kontroverse, herausfordernde Zuspitzung"
+      },
+      "positive": {
+        "heading": "Provocative",
+        "instruction": "Sharpen the existing statements so that they provoke contradiction. Attack positions and arguments, not people or groups. Do not add new theses.",
+        "markers": "bold theses, rhetorical questions, direct challenge of the opposing position"
+      }
+    },
+    {
+      "id": "nostalgic",
+      "type": "intensity",
+      "group": "creativity",
+      "labels": {
+        "en": "Nostalgic",
+        "de": "Nostalgisch"
+      },
+      "descriptions": {
+        "en": "Retrospective, wistful, past-oriented",
+        "de": "Rückblickend, wehmütig, vergangenheitsbezogen"
+      },
+      "positive": {
+        "heading": "Nostalgic",
+        "instruction": "Narrate in retrospect, with wistfulness about the past. Let the temporal distance be felt.",
+        "markers": "past tense, references to back then, details of memory, gentle wistfulness",
+        "example_key": "nostalgic"
+      }
+    },
+    {
+      "id": "persuasive",
+      "type": "intensity",
+      "group": "rhetoric",
+      "labels": {
+        "en": "Persuasive",
+        "de": "Überzeugend"
+      },
+      "descriptions": {
+        "en": "Persuasive rhetoric with strong arguments",
+        "de": "Persuasive Rhetorik mit starken Argumenten"
+      },
+      "positive": {
+        "heading": "Persuasive",
+        "instruction": "Lead the readers to a conclusion: name the benefit, order the arguments by weight, end with the strongest.",
+        "markers": "benefit arguments, build-up towards the end, anticipated objections"
+      }
+    },
+    {
+      "id": "motivating",
+      "type": "intensity",
+      "group": "rhetoric",
+      "labels": {
+        "en": "Motivating",
+        "de": "Motivierend"
+      },
+      "descriptions": {
+        "en": "Encouraging, inspiring, activating",
+        "de": "Aufmunternd, inspirierend, aktivierend"
+      },
+      "positive": {
+        "heading": "Motivating",
+        "instruction": "Address the readers as capable of acting, show the next possible step and show confidence in them.",
+        "markers": "direct address, calls to action, confidence, vocabulary of setting out"
+      }
+    },
+    {
+      "id": "length",
+      "type": "polar",
+      "group": "format",
+      "labels": {
+        "en": "Long",
+        "de": "Lang"
+      },
+      "opposite_labels": {
+        "en": "Short",
+        "de": "Kurz"
+      },
+      "descriptions": {
+        "en": "Detailed vs. compact and concise",
+        "de": "Ausführlich und detailliert vs. kompakt und prägnant"
+      },
+      "positive": {
+        "heading": "Long",
+        "instruction": "Develop the existing thoughts more broadly: unfold them, explain connections, give them room. Do not add new facts.",
+        "markers": "elaborated explanations, intermediate steps, longer sentence arcs"
+      },
+      "negative": {
+        "heading": "Short",
+        "instruction": "Condense the text to the essentials. Remove everything that does not carry the core message.",
+        "markers": "short sentences, no repetitions, no embellishments"
+      }
+    },
+    {
+      "id": "structured",
+      "type": "polar",
+      "group": "format",
+      "labels": {
+        "en": "Structured",
+        "de": "Strukturiert"
+      },
+      "opposite_labels": {
+        "en": "Unstructured",
+        "de": "Unstrukturiert"
+      },
+      "descriptions": {
+        "en": "With paragraphs, headings, lists vs. continuous prose",
+        "de": "Mit Absätzen, Überschriften, Listen vs. reiner Fließtext"
+      },
+      "positive": {
+        "heading": "Structured",
+        "instruction": "Structure the text visibly: thematic paragraphs, a list for several points of equal rank, subheadings for longer texts.",
+        "markers": "paragraphs, subheadings, lists"
+      },
+      "negative": {
+        "heading": "Unstructured",
+        "instruction": "Write continuous prose without headings or lists. Connect the thoughts linguistically rather than typographically.",
+        "markers": "a single block of text, connecting transitions, no bullet points"
+      }
+    },
+    {
+      "id": "active",
+      "type": "polar",
+      "group": "format",
+      "labels": {
+        "en": "Active",
+        "de": "Aktiv"
+      },
+      "opposite_labels": {
+        "en": "Passive",
+        "de": "Passiv"
+      },
+      "descriptions": {
+        "en": "Active verb forms vs. passive constructions",
+        "de": "Aktive Verbformen vs. Passivkonstruktionen"
+      },
+      "positive": {
+        "heading": "Active",
+        "instruction": "Make the acting agent the subject of the sentence and use active forms.",
+        "markers": "active sentences, named agents, full verbs",
+        "example_key": "active.positive"
+      },
+      "negative": {
+        "heading": "Passive",
+        "instruction": "Put the process in the foreground and leave the acting agent unnamed: passive and passive-like constructions.",
+        "markers": "passive constructions, impersonal descriptions of processes",
+        "example_key": "active.negative"
+      }
+    },
+    {
+      "id": "cefr_level",
+      "type": "stages",
+      "group": "audience",
+      "labels": {
+        "en": "Language level (CEFR)",
+        "de": "Sprachniveau (GER)"
+      },
+      "descriptions": {
+        "en": "CEFR proficiency level of the readers",
+        "de": "GER-Sprachkompetenzstufe der Leserschaft"
+      },
+      "stages": [
+        {
+          "id": "A1",
+          "instruction": "Only the most frequent everyday words. Very short main clauses, one statement each. No subordinate clauses, no foreign words, present tense preferred.",
+          "labels": {
+            "en": "A1",
+            "de": "A1"
+          }
+        },
+        {
+          "id": "A2",
+          "instruction": "Frequent everyday vocabulary. Short sentences, simple subordinate clauses of cause or condition. Foreign words only if explained immediately.",
+          "labels": {
+            "en": "A2",
+            "de": "A2"
+          }
+        },
+        {
+          "id": "B1",
+          "instruction": "Common vocabulary. Medium-length sentences with clear subordinate clauses. Technical terms used sparingly and explained when first used.",
+          "labels": {
+            "en": "B1",
+            "de": "B1"
+          }
+        },
+        {
+          "id": "B2",
+          "instruction": "Differentiated vocabulary. More complex sentence structures and abstract relationships are fine. Common technical terms without explanation.",
+          "labels": {
+            "en": "B2",
+            "de": "B2"
+          }
+        },
+        {
+          "id": "C1",
+          "instruction": "Demanding vocabulary with fine distinctions of meaning. Complex sentence structures, idiomatic expressions, implicit references.",
+          "labels": {
+            "en": "C1",
+            "de": "C1"
+          }
+        },
+        {
+          "id": "C2",
+          "instruction": "Full expressive range. Precise terminology, stylistic nuances, demanding syntax without simplification.",
+          "labels": {
+            "en": "C2",
+            "de": "C2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "audience_age",
+      "type": "stages",
+      "group": "audience",
+      "labels": {
+        "en": "Audience age",
+        "de": "Zielgruppenalter"
+      },
+      "descriptions": {
+        "en": "Adapting to the readers' age group",
+        "de": "Anpassung an die Altersgruppe der Leser"
+      },
+      "stages": [
+        {
+          "id": "children",
+          "instruction": "Concrete, vivid language from children's everyday world. Short sentences, a clear course of action, no irony, no threatening details.",
+          "labels": {
+            "en": "Children (6–10)",
+            "de": "Kinder (6–10)"
+          }
+        },
+        {
+          "id": "teens",
+          "instruction": "Direct, unobtrusive address without currying favour. Examples from teenagers' everyday life, no lecturing attitude.",
+          "labels": {
+            "en": "Teenagers (11–17)",
+            "de": "Jugendliche (11–17)"
+          }
+        },
+        {
+          "id": "young_adults",
+          "instruction": "Brisk pace, brief examples, references to education, work and organising everyday life.",
+          "labels": {
+            "en": "Young adults (18–30)",
+            "de": "Junge Erwachsene (18–30)"
+          }
+        },
+        {
+          "id": "adults",
+          "instruction": "Factual address at eye level. References to professional and family life, no explanation of basics.",
+          "labels": {
+            "en": "Adults (31–60)",
+            "de": "Erwachsene (31–60)"
+          }
+        },
+        {
+          "id": "seniors",
+          "instruction": "Calm pace, easily readable sentence lengths, explanation of newer terms. Respectful address without condescension.",
+          "labels": {
+            "en": "Seniors (60+)",
+            "de": "Senioren (60+)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "technical_terms",
+      "type": "intensity",
+      "group": "audience",
+      "labels": {
+        "en": "Technical terms",
+        "de": "Fachsprachlich"
+      },
+      "descriptions": {
+        "en": "Use of technical terms, jargon and terminology",
+        "de": "Verwendung von Fachbegriffen, Jargon und Terminologie"
+      },
+      "positive": {
+        "heading": "Technical terms",
+        "instruction": "Use the established technical terminology of the subject area the source text deals with.",
+        "markers": "technical terms, field-specific phrasing, no paraphrases for technical words"
+      }
+    }
+  ]
+}

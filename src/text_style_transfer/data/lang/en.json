@@ -1,0 +1,137 @@
+{
+  "code": "en",
+  "endonym": "English",
+  "english_name": "English",
+  "decimal_separator": ".",
+  "group_separators": [
+    ","
+  ],
+  "quotes": [
+    [
+      "“",
+      "”"
+    ],
+    [
+      "\"",
+      "\""
+    ],
+    [
+      "‘",
+      "’"
+    ]
+  ],
+  "examples": {
+    "formal.positive": "full forms instead of contractions (do not, it is), titles and surnames, connectives such as 'furthermore', 'consequently'",
+    "formal.negative": "contractions (don't, it's), first names, conversational fillers such as 'well', 'anyway', 'kind of'",
+    "polite.positive": "'please', 'could you', 'would you mind', 'thank you', reasons given",
+    "polite.negative": "bare imperatives, 'you must', no greetings, blunt accusations",
+    "personal.positive": "'I', 'we', 'you' as sentence subjects",
+    "personal.negative": "'one', 'it is …', passive voice, things as subjects",
+    "confident.positive": "'will', 'is', 'clearly', no qualifiers",
+    "confident.negative": "'might', 'perhaps', 'as far as I can judge'",
+    "hedging": "'may', 'might', 'tends to', 'arguably', 'to some extent', 'under certain conditions'",
+    "nominal.positive": "nominalisations in -tion, -ment, -ance, 'carry out an analysis', 'make a decision', chains of 'of' phrases",
+    "nominal.negative": "full verbs ('analyse' instead of 'carry out an analysis'), few nominalisations",
+    "active.positive": "active voice with named agents",
+    "active.negative": "be-passive ('is done'), get-passive, 'it was decided that'",
+    "nostalgic": "past tense, 'back then', 'in those days', 'used to'",
+    "intensifiers": "'very', 'extremely', 'totally', 'hardly', 'a little'",
+    "subjectivity_example": "'The author considers X to be Y'"
+  },
+  "preamble_patterns": [
+    "^(sure|certainly|of course|absolutely)\\s*[!.]?\\s*$",
+    "^(the )?(rewritten|neutrali[sz]ed|transformed|revised) (text|version)\\b.{0,60}:\\s*$"
+  ],
+  "trailer_patterns": [
+    "^(the )?(text|version) (has been|was) .{0,200}$",
+    "^\\(.{0,200}(rewritten|adapted|neutrali[sz]ed|transformed).{0,60}\\)$"
+  ],
+  "function_words": [
+    "the",
+    "and",
+    "of",
+    "to",
+    "in",
+    "is",
+    "that",
+    "it",
+    "for",
+    "was",
+    "on",
+    "with",
+    "as",
+    "he",
+    "she",
+    "they",
+    "be",
+    "at",
+    "by",
+    "this",
+    "have",
+    "from",
+    "or",
+    "not",
+    "but",
+    "are",
+    "which",
+    "you",
+    "we",
+    "an",
+    "were"
+  ],
+  "abbreviations": [
+    "e.g.",
+    "i.e.",
+    "Mr.",
+    "Mrs.",
+    "Ms.",
+    "Dr.",
+    "Prof.",
+    "vs.",
+    "St."
+  ],
+  "indicators": {
+    "personal": [
+      "i",
+      "me",
+      "my",
+      "mine",
+      "myself",
+      "we",
+      "us",
+      "our",
+      "ours",
+      "ourselves",
+      "you",
+      "your",
+      "yours",
+      "yourself",
+      "yourselves"
+    ],
+    "formal_address": [],
+    "formal_case_sensitive": false,
+    "familiar_address": [],
+    "familiar_regex": "(?<![^\\W\\d_])[^\\W\\d_]+(?:n['’]t|['’](?:re|ll|ve|m|d))(?![^\\W\\d_])",
+    "hedges": [
+      "may",
+      "might",
+      "could",
+      "would",
+      "perhaps",
+      "possibly",
+      "probably",
+      "likely",
+      "apparently",
+      "seemingly",
+      "somewhat",
+      "arguably",
+      "seems",
+      "seem",
+      "appears",
+      "tends to",
+      "to some extent",
+      "rather"
+    ],
+    "nominal_suffix": "(?:tion|sion|ment|ance|ence|ity|ness)s?$"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "news_article",
+  "name": "News article",
+  "labels": {
+    "en": "📰 News article",
+    "de": "📰 Nachrichtenartikel"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -6,
+    "direct": 6,
+    "emotional": -8,
+    "nominal": -5,
+    "objective": 10,
+    "personal": -10,
+    "precise": 10,
+    "structured": 6
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

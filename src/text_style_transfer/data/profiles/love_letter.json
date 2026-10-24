@@ -1,0 +1,29 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "love_letter",
+  "name": "Love letter",
+  "labels": {
+    "en": "💌 Love letter",
+    "de": "💌 Liebesbrief"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -5,
+    "affectionate": 10,
+    "emotional": 10,
+    "optimistic": 5,
+    "personal": 10,
+    "poetic": 7
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

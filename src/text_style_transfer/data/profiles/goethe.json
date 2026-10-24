@@ -1,0 +1,44 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "goethe",
+  "name": "Goethe (classical prose)",
+  "labels": {
+    "en": "📜 Goethe (classical prose)",
+    "de": "📜 Goethe (klassische Prosa)"
+  },
+  "language": "de",
+  "sliders": {
+    "abstract": 3,
+    "convoluted": 5,
+    "formal": 7,
+    "poetic": 5,
+    "simple": -6
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "German prose of Weimar Classicism in the manner of Johann Wolfgang von Goethe: long, balanced periodic sentences with carefully placed subordinate clauses; a calm, composed narrative voice that observes and reflects; elevated but not ornate vocabulary; restrained emotion conveyed through measured wording; occasional antitheses and parallel constructions. Prefer hypotactic sentences over sequences of short main clauses. Convey feelings through measured, precise wording rather than exclamations. Use present-day spelling.",
+    "de": "Deutsche Prosa der Weimarer Klassik nach Art Johann Wolfgang von Goethes: lange, ausgewogene Satzperioden mit sorgfältig gesetzten Nebensätzen; eine ruhige, gefasste Erzählstimme, die beobachtet und reflektiert; gehobener, aber nicht überladener Wortschatz; verhaltene Gefühle, ausgedrückt durch maßvolle Wortwahl; gelegentliche Antithesen und Parallelismen. Hypotaktische Sätze statt Reihen kurzer Hauptsätze; Gefühle durch genaue Wortwahl statt durch Ausrufe. Heutige Rechtschreibung verwenden."
+  },
+  "metrics": {
+    "sentence_length_mean": 22.393,
+    "sentence_length_sd": 15.399,
+    "sentences_per_paragraph": 2.908,
+    "word_length_mean": 5.273,
+    "mattr": 0.873,
+    "commas_per_sentence": 2.369,
+    "question_share": 0.035,
+    "exclamation_share": 0.072,
+    "dialogue_share": 0.108,
+    "words_measured": 238344.0
+  }
+}

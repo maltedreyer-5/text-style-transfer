@@ -1,0 +1,30 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "fairy_tale",
+  "name": "Fairy tale",
+  "labels": {
+    "en": "🧚 Fairy tale",
+    "de": "🧚 Märchen"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -7,
+    "audience_age": "children",
+    "emotional": 5,
+    "magical": 10,
+    "nominal": -5,
+    "poetic": 7,
+    "simple": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

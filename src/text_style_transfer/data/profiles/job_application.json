@@ -1,0 +1,31 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "job_application",
+  "name": "Job application",
+  "labels": {
+    "en": "📝 Job application",
+    "de": "📝 Bewerbungsschreiben"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -4,
+    "confident": 7,
+    "formal": 8,
+    "optimistic": 5,
+    "personal": 6,
+    "persuasive": 7,
+    "polite": 10,
+    "structured": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

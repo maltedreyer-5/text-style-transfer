@@ -1,0 +1,33 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "academic_social_post",
+  "name": "Academic social media post",
+  "labels": {
+    "en": "🎓 Academic social media post",
+    "de": "🎓 Akademischer Social-Media-Beitrag"
+  },
+  "language": null,
+  "sliders": {
+    "direct": 7,
+    "length": -6,
+    "optimistic": 4,
+    "personal": 6,
+    "structured": 3,
+    "technical_terms": 3
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "Post for a professional network by researchers or an academic institution: the key finding or occasion in the first sentence, its relevance in plain words, people and partners named only if they appear in the source text, factual enthusiasm without hype words.",
+    "de": "Beitrag für ein berufliches Netzwerk von Forschenden oder einer wissenschaftlichen Einrichtung: das zentrale Ergebnis oder der Anlass im ersten Satz, die Bedeutung in einfachen Worten, Personen und Partner nur, wenn sie im Ausgangstext vorkommen, sachliche Begeisterung ohne Hype-Wörter."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "academic_paper",
+  "name": "Academic paper",
+  "labels": {
+    "en": "🎓 Academic paper",
+    "de": "🎓 Akademische Arbeit"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": 6,
+    "active": -8,
+    "cefr_level": "C2",
+    "hedging": 8,
+    "nominal": 8,
+    "objective": 8,
+    "personal": -10,
+    "precise": 10,
+    "structured": 10,
+    "technical_terms": 10
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

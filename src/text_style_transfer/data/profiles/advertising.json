@@ -1,0 +1,31 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "advertising",
+  "name": "Advertising / marketing",
+  "labels": {
+    "en": "📢 Advertising / marketing",
+    "de": "📢 Werbung / Marketing"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -6,
+    "direct": 8,
+    "emotional": 8,
+    "length": -6,
+    "motivating": 8,
+    "nominal": -5,
+    "optimistic": 10,
+    "persuasive": 10
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

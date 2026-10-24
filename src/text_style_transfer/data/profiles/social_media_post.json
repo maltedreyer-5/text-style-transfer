@@ -1,0 +1,30 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "social_media_post",
+  "name": "Social media post",
+  "labels": {
+    "en": "📱 Social media post",
+    "de": "📱 Social-Media-Post"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -5,
+    "direct": 10,
+    "emotional": 7,
+    "formal": -8,
+    "length": -10,
+    "nominal": -6,
+    "personal": 8
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-style-transfer"
+dynamic = ["version"]
+description = "Derive a writing style from own text samples, adjust it with sliders and measured targets, and export it as an Agent Skill; texts in six European languages."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Malte Dreyer" }]
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=6.30,<7",
+    "openai>=3.35,<4",
+    "python-docx>=1.2,<2",
+    "python-dotenv>=1.2,<2",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Natural Language :: German",
+    "Natural Language :: French",
+    "Natural Language :: Spanish",
+    "Natural Language :: Italian",
+    "Natural Language :: Polish",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+text-style-transfer = "text_style_transfer.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/maltedreyer-5/text-style-transfer"
+Issues = "https://github.com/maltedreyer-5/text-style-transfer/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "text_style_transfer.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+text_style_transfer = ["data/*.json", "data/*.md", "data/*/*.json"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

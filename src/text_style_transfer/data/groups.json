@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "id": "tone_emotion",
+      "labels": {
+        "en": "🎭 Tone & emotion",
+        "de": "🎭 Ton & Emotion"
+      }
+    },
+    {
+      "id": "formality",
+      "labels": {
+        "en": "🤝 Formality & politeness",
+        "de": "🤝 Formalität & Höflichkeit"
+      }
+    },
+    {
+      "id": "clarity",
+      "labels": {
+        "en": "💡 Clarity & comprehensibility",
+        "de": "💡 Klarheit & Verständlichkeit"
+      }
+    },
+    {
+      "id": "creativity",
+      "labels": {
+        "en": "✨ Creativity & stylistic devices",
+        "de": "✨ Kreativität & Stilmittel"
+      }
+    },
+    {
+      "id": "rhetoric",
+      "labels": {
+        "en": "📢 Persuasion & rhetoric",
+        "de": "📢 Überzeugung & Rhetorik"
+      }
+    },
+    {
+      "id": "format",
+      "labels": {
+        "en": "📐 Format & structure",
+        "de": "📐 Format & Struktur"
+      }
+    },
+    {
+      "id": "audience",
+      "labels": {
+        "en": "🎯 Audience & level",
+        "de": "🎯 Zielgruppe & Niveau"
+      }
+    }
+  ]
+}

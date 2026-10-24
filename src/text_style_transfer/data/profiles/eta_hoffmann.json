@@ -1,0 +1,45 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "eta_hoffmann",
+  "name": "E. T. A. Hoffmann (Romantic prose)",
+  "labels": {
+    "en": "📜 E. T. A. Hoffmann (Romantic prose)",
+    "de": "📜 E. T. A. Hoffmann (romantische Prosa)"
+  },
+  "language": "de",
+  "sliders": {
+    "cheerful": -4,
+    "convoluted": 4,
+    "dramatic": 7,
+    "emotional": 7,
+    "ironic": 3,
+    "magical": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "German Romantic prose in the manner of E. T. A. Hoffmann: an excited, often breathless narrative voice; long sentences broken up by dashes, exclamations and asides to the reader; the uncanny breaking into the everyday; vivid, sometimes grotesque details; abrupt shifts between irony and horror. Break long sentences with dashes and exclamations at moments of excitement. Let ordinary objects and situations appear strange and unsettling. Use present-day spelling.",
+    "de": "Deutsche Prosa der Romantik nach Art E. T. A. Hoffmanns: eine erregte, oft atemlose Erzählstimme; lange Sätze, durchbrochen von Gedankenstrichen, Ausrufen und Einwürfen an die Leserschaft; das Unheimliche, das in den Alltag einbricht; anschauliche, mitunter groteske Einzelheiten; jähe Wechsel zwischen Ironie und Grauen. In Momenten der Erregung lange Sätze mit Gedankenstrichen und Ausrufen brechen; Alltägliches fremd und beunruhigend erscheinen lassen. Heutige Rechtschreibung verwenden."
+  },
+  "metrics": {
+    "sentence_length_mean": 31.038,
+    "sentence_length_sd": 26.074,
+    "sentences_per_paragraph": 5.128,
+    "word_length_mean": 5.232,
+    "mattr": 0.871,
+    "commas_per_sentence": 3.724,
+    "question_share": 0.056,
+    "exclamation_share": 0.135,
+    "dialogue_share": 0.141,
+    "words_measured": 276291.0
+  }
+}

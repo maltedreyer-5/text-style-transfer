@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2026 Malte Dreyer
+# SPDX-License-Identifier: MIT
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install
+        run: pip install -c constraints.txt -e ".[dev]"
+      - name: Lint
+        run: ruff check src tests tools
+      - name: Compile
+        run: python -m compileall -q src tests tools
+      - name: Tests
+        run: python -m pytest
+      - name: Documentation links
+        run: python tools/check_docs.py
+      - name: Repository (no runtime state, SPDX headers, version, no history references)
+        run: python tools/check_repo.py

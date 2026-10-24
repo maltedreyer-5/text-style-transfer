@@ -1,0 +1,30 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "clickbait",
+  "name": "Clickbait",
+  "labels": {
+    "en": "🎣 Clickbait",
+    "de": "🎣 Clickbait"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -7,
+    "direct": 8,
+    "dramatic": 8,
+    "emotional": 10,
+    "length": -8,
+    "persuasive": 10,
+    "provocative": 6
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

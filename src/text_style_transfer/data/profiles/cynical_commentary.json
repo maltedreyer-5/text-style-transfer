@@ -1,0 +1,27 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "cynical_commentary",
+  "name": "Cynical commentary",
+  "labels": {
+    "en": "😤 Cynical commentary",
+    "de": "😤 Zynischer Kommentar"
+  },
+  "language": null,
+  "sliders": {
+    "direct": 8,
+    "friendly": -7,
+    "ironic": 8,
+    "sarcastic": 10
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

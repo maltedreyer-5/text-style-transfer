@@ -1,0 +1,32 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "motivational_speech",
+  "name": "Motivational speech",
+  "labels": {
+    "en": "🎤 Motivational speech",
+    "de": "🎤 Motivationsrede"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -6,
+    "confident": 10,
+    "direct": 8,
+    "dramatic": 7,
+    "emotional": 10,
+    "motivating": 10,
+    "nominal": -7,
+    "optimistic": 10,
+    "personal": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

@@ -1,0 +1,45 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "mark_twain",
+  "name": "Mark Twain",
+  "labels": {
+    "en": "📜 Mark Twain",
+    "de": "📜 Mark Twain"
+  },
+  "language": "en",
+  "sliders": {
+    "abstract": -6,
+    "formal": -6,
+    "funny": 6,
+    "ironic": 6,
+    "personal": 5,
+    "simple": 3
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "American prose in the manner of Mark Twain: a plain, conversational narrative voice; dry, deadpan humour and understatement; colloquial idioms; irony aimed at pretension and authority; vivid concrete details; long sentences joined by 'and' alternating with short punchlines. Deliver the funniest point in a flat, matter-of-fact tone. Prefer homely, concrete comparisons over abstract ones.",
+    "de": "Amerikanische Prosa nach Art Mark Twains: eine schlichte, gesprächsnahe Erzählstimme; trockener, unbewegter Humor und Untertreibung; umgangssprachliche Redewendungen; Ironie gegen Anmaßung und Autorität; anschauliche, konkrete Einzelheiten; lange, mit „und“ verbundene Sätze im Wechsel mit kurzen Pointen. Die witzigste Stelle im nüchternen, sachlichen Ton vortragen; bodenständige, konkrete Vergleiche statt abstrakter."
+  },
+  "metrics": {
+    "sentence_length_mean": 20.47,
+    "sentence_length_sd": 18.954,
+    "sentences_per_paragraph": 3.852,
+    "word_length_mean": 4.22,
+    "mattr": 0.789,
+    "commas_per_sentence": 1.38,
+    "question_share": 0.066,
+    "exclamation_share": 0.083,
+    "dialogue_share": 0.175,
+    "words_measured": 377470.0
+  }
+}

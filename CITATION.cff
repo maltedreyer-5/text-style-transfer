@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Text Style Transfer"
+abstract: "Web application that derives a writing style from own text samples, measures its countable features, lets the user adjust it with style sliders and measured targets, and exports it as an Agent Skill. The same settings rewrite texts in six European languages, via a neutral intermediate text or directly."
+authors:
+  - family-names: Dreyer
+    given-names: Malte
+version: "1.0.0"
+date-released: 2026-10-24
+license: MIT
+repository-code: "https://github.com/maltedreyer-5/text-style-transfer"
+keywords:
+  - text style transfer
+  - agent skills
+  - stylometry
+  - stylistics
+  - language models
+  - multilingual

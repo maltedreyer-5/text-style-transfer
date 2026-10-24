@@ -1,0 +1,162 @@
+{
+  "code": "it",
+  "endonym": "Italiano",
+  "english_name": "Italian",
+  "decimal_separator": ",",
+  "group_separators": [
+    ".",
+    " ",
+    " "
+  ],
+  "quotes": [
+    [
+      "«",
+      "»"
+    ],
+    [
+      "“",
+      "”"
+    ],
+    [
+      "\"",
+      "\""
+    ]
+  ],
+  "examples": {
+    "formal.positive": "dare del Lei, frasi complete, connettivi formali come «inoltre», «pertanto»",
+    "formal.negative": "dare del tu, colloquialismi, intercalari come «dai», «insomma», «tipo», «cioè»",
+    "polite.positive": "«per favore», «potrebbe», condizionale di cortesia, ringraziamenti, motivazioni",
+    "polite.negative": "imperativi secchi, «deve», nessuna formula di cortesia, rimproveri diretti",
+    "personal.positive": "«io», «noi», «Lei» o «tu» come soggetti, verbi in prima persona",
+    "personal.negative": "«si» impersonale, forma passiva, soggetti inanimati",
+    "confident.positive": "indicativo, futuro, «chiaramente», nessuna attenuazione",
+    "confident.negative": "condizionale, «forse», «a mio modesto parere»",
+    "hedging": "«potrebbe», «sembra», «è possibile che» con il congiuntivo, «in una certa misura»",
+    "nominal.positive": "nominalizzazioni in -zione, -mento, -ità, «effettuare un’analisi», catene di complementi con «di»",
+    "nominal.negative": "verbi pieni («analizzare» invece di «effettuare un’analisi»), poche nominalizzazioni",
+    "active.positive": "forma attiva con agenti nominati",
+    "active.negative": "passivo con «essere» o «venire» («viene deciso»), si passivante",
+    "nostalgic": "imperfetto, «allora», «una volta», «a quei tempi»",
+    "intensifiers": "«molto», «estremamente», «totalmente», «appena», «un po’»",
+    "subjectivity_example": "«L’autrice valuta X come Y»"
+  },
+  "preamble_patterns": [
+    "^(ecco|di seguito)\\b.{0,80}:\\s*$",
+    "^(certo|certamente|volentieri|ovviamente)\\b.{0,80}:\\s*$",
+    "^(certo|certamente|volentieri|ovviamente)\\s*[!.]?\\s*$",
+    "^(il )?testo (neutralizzato|riscritto|trasformato|rivisto)\\s*:?\\s*$",
+    "^(risultato|risposta)\\s*:\\s*$"
+  ],
+  "trailer_patterns": [
+    "^\\**(nota|osservazione|spiegazione)\\**\\s*:.*$",
+    "^ho (riscritto|adattato|neutralizzato|trasformato)\\b.{0,200}$",
+    "^\\(.{0,200}(adattato|riscritto|neutralizzato|trasformato).{0,60}\\)$"
+  ],
+  "function_words": [
+    "il",
+    "lo",
+    "la",
+    "gli",
+    "le",
+    "di",
+    "del",
+    "della",
+    "e",
+    "che",
+    "è",
+    "un",
+    "una",
+    "per",
+    "non",
+    "con",
+    "si",
+    "da",
+    "dei",
+    "sono",
+    "al",
+    "alla",
+    "anche",
+    "come",
+    "più",
+    "ma",
+    "nel",
+    "nella",
+    "questo",
+    "questa",
+    "ha"
+  ],
+  "abbreviations": [
+    "Sig.",
+    "Dott.",
+    "Prof.",
+    "ecc.",
+    "es.",
+    "pag."
+  ],
+  "indicators": {
+    "personal": [
+      "io",
+      "me",
+      "mi",
+      "mio",
+      "mia",
+      "miei",
+      "mie",
+      "noi",
+      "ci",
+      "nostro",
+      "nostra",
+      "nostri",
+      "nostre",
+      "tu",
+      "te",
+      "ti",
+      "tuo",
+      "tua",
+      "tuoi",
+      "tue",
+      "voi",
+      "vi",
+      "vostro",
+      "vostra",
+      "vostri",
+      "vostre"
+    ],
+    "formal_address": [
+      "Lei",
+      "Le",
+      "Suo",
+      "Sua",
+      "Suoi",
+      "Sue"
+    ],
+    "formal_case_sensitive": true,
+    "familiar_address": [
+      "tu",
+      "ti",
+      "tuo",
+      "tua",
+      "tuoi",
+      "tue"
+    ],
+    "familiar_regex": "",
+    "hedges": [
+      "potrebbe",
+      "potrebbero",
+      "potrei",
+      "potresti",
+      "potremmo",
+      "potreste",
+      "forse",
+      "probabilmente",
+      "possibilmente",
+      "sembra",
+      "sembrano",
+      "apparentemente",
+      "eventualmente",
+      "piuttosto",
+      "in una certa misura"
+    ],
+    "nominal_suffix": "(?:zione|zioni|sione|sioni|mento|menti|ità|tudine|anza|anze|enza|enze|ismo|ismi)$"
+  }
+}

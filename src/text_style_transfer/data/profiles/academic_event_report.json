@@ -1,0 +1,33 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "academic_event_report",
+  "name": "Academic event report",
+  "labels": {
+    "en": "🎓 Academic event report",
+    "de": "🎓 Akademischer Veranstaltungsbericht"
+  },
+  "language": null,
+  "sliders": {
+    "clarity": 7,
+    "nominal": -3,
+    "objective": 6,
+    "optimistic": 3,
+    "personal": 4,
+    "structured": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "Report on a lecture, conference or workshop: what took place, who contributed (names only from the source text), the main points in the order of the event, a short conclusion based on the source text.",
+    "de": "Bericht über einen Vortrag, eine Tagung oder einen Workshop: was stattfand, wer beitrug (Namen nur aus dem Ausgangstext), die wichtigsten Punkte in der Reihenfolge der Veranstaltung, ein kurzes Fazit auf Grundlage des Ausgangstextes."
+  }
+}

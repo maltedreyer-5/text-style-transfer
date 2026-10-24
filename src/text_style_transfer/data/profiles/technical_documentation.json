@@ -1,0 +1,35 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "technical_documentation",
+  "name": "Technical documentation",
+  "labels": {
+    "en": "⚙️ Technical documentation",
+    "de": "⚙️ Technische Dokumentation"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -5,
+    "active": 5,
+    "clarity": 10,
+    "objective": 10,
+    "personal": -8,
+    "precise": 10,
+    "simple": 5,
+    "structured": 10
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "Technical documentation: short, unambiguous sentences; one instruction or fact per sentence; consistent terms that are never varied for style; imperative mood for instructions; lists for sequences of steps.",
+    "de": "Technische Dokumentation: kurze, eindeutige Sätze; eine Anweisung oder Tatsache pro Satz; einheitliche Begriffe, die nie aus stilistischen Gründen variiert werden; Imperativ für Handlungsanweisungen; Listen für Schrittfolgen."
+  }
+}

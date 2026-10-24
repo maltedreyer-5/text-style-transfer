@@ -1,0 +1,36 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "official_letter",
+  "name": "Official letter",
+  "labels": {
+    "en": "📄 Official letter",
+    "de": "📄 Behördenbrief"
+  },
+  "language": null,
+  "sliders": {
+    "active": -5,
+    "clarity": 10,
+    "direct": 5,
+    "formal": 10,
+    "nominal": 7,
+    "objective": 10,
+    "personal": -8,
+    "precise": 10,
+    "structured": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "Language of public administration: impersonal, precise and formal; long but clearly structured sentences; nominal style; legal and administrative terms where the source text deals with such matters; requests and requirements stated explicitly.",
+    "de": "Sprache der öffentlichen Verwaltung: unpersönlich, präzise und förmlich; lange, aber klar gegliederte Sätze; Nominalstil; Rechts- und Verwaltungsbegriffe, wo der Ausgangstext solche Sachverhalte behandelt; Anliegen und Anforderungen ausdrücklich benannt."
+  }
+}

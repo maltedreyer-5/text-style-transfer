@@ -1,0 +1,8 @@
+# Source distribution: everything needed to run the tests and read the documentation.
+include CHANGELOG.md CONTRIBUTING.md SECURITY.md CODE_OF_CONDUCT.md CITATION.cff constraints.txt
+include .env.example Dockerfile compose.yaml
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include docs *.md
+exclude RELEASE-CHECKLIST.md
+global-exclude __pycache__ *.py[cod]

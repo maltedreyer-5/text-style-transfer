@@ -1,0 +1,100 @@
+{
+  "conflicts": [
+    {
+      "a": "clarity",
+      "b": "convoluted",
+      "hints": {
+        "en": "Clarity and convolution pull in opposite directions. The model usually follows the slider set more strongly.",
+        "de": "Klarheit und Verworrenheit ziehen in entgegengesetzte Richtungen. Das Modell folgt meist dem stärker eingestellten Regler."
+      }
+    },
+    {
+      "a": "precise",
+      "b": "convoluted",
+      "hints": {
+        "en": "Precision and nested sentence structures contradict each other.",
+        "de": "Präzision und verschachtelte Satzstrukturen widersprechen sich."
+      }
+    },
+    {
+      "a": "precise",
+      "b": "hedging",
+      "hints": {
+        "en": "Hedging weakens exactly the unambiguity that precision is meant to create. Intended in scientific texts, otherwise usually not.",
+        "de": "Hedging schwächt genau die Eindeutigkeit ab, die Präzision erzeugen soll. In wissenschaftlichen Texten ist die Kombination gewollt, sonst meist nicht."
+      }
+    },
+    {
+      "a": "objective",
+      "b": "emotional",
+      "hints": {
+        "en": "Objectivity and emotional colouring run counter to each other. They can be combined on purpose (e.g. magical realism); otherwise they weaken each other.",
+        "de": "Sachlichkeit und emotionale Färbung sind gegenläufig. Bewusst kombinierbar (z. B. Magischer Realismus), sonst schwächen sie sich gegenseitig ab."
+      }
+    },
+    {
+      "a": "objective",
+      "b": "dramatic",
+      "hints": {
+        "en": "Drama creates exactly the colouring that objectivity is meant to avoid.",
+        "de": "Dramatik erzeugt genau die Färbung, die Sachlichkeit vermeiden soll."
+      }
+    },
+    {
+      "a": "objective",
+      "b": "affectionate",
+      "hints": {
+        "en": "Affection in expression and fact-oriented sobriety work against each other.",
+        "de": "Zuneigung im Ausdruck und faktenorientierte Nüchternheit arbeiten gegeneinander."
+      }
+    },
+    {
+      "a": "simple",
+      "b": "technical_terms",
+      "hints": {
+        "en": "Simple basic vocabulary and technical terminology largely exclude each other.",
+        "de": "Einfacher Grundwortschatz und Fachterminologie schließen sich weitgehend aus."
+      }
+    },
+    {
+      "a": "friendly",
+      "b": "sarcastic",
+      "hints": {
+        "en": "Sarcasm hurts, friendliness invites. The combination usually produces an unclear tone.",
+        "de": "Sarkasmus wirkt verletzend, Freundlichkeit einladend. Die Kombination ergibt meist einen unklaren Ton."
+      }
+    },
+    {
+      "a": "polite",
+      "b": "provocative",
+      "hints": {
+        "en": "Provocation and politeness can only be combined within narrow limits.",
+        "de": "Provokation und Höflichkeit lassen sich nur in engen Grenzen verbinden."
+      }
+    },
+    {
+      "a": "nominal",
+      "b": "active",
+      "hints": {
+        "en": "Nominal style produces passive constructions. If both are set to positive values, they work against each other.",
+        "de": "Nominalstil erzeugt Passivkonstruktionen. Stehen beide auf positiven Werten, arbeiten sie gegeneinander."
+      }
+    },
+    {
+      "a": "cheerful",
+      "b": "nostalgic",
+      "hints": {
+        "en": "Wistfulness and cheerful lightness together produce an undecided basic tone.",
+        "de": "Wehmut und heitere Leichtigkeit ergeben zusammen einen unentschiedenen Grundton."
+      }
+    },
+    {
+      "a": "ironic",
+      "b": "sarcastic",
+      "hints": {
+        "en": "Both create the same layer of effect. Set high together, the text easily tips into free commentary; one of them is usually enough.",
+        "de": "Beide erzeugen dieselbe Wirkungsschicht. Gemeinsam hoch eingestellt kippt der Text leicht in freien Kommentar; meist genügt einer von beiden."
+      }
+    }
+  ]
+}

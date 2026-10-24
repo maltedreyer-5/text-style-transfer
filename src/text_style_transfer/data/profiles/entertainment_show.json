@@ -1,0 +1,30 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "entertainment_show",
+  "name": "Entertainment / show",
+  "labels": {
+    "en": "🎪 Entertainment / show",
+    "de": "🎪 Entertainment / Show"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -5,
+    "direct": 8,
+    "dramatic": 7,
+    "emotional": 8,
+    "formal": -8,
+    "funny": 8,
+    "nominal": -6
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

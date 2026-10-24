@@ -1,0 +1,28 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "horror_story",
+  "name": "Horror story",
+  "labels": {
+    "en": "👻 Horror story",
+    "de": "👻 Gruselgeschichte"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -6,
+    "cheerful": -10,
+    "dramatic": 10,
+    "emotional": 7,
+    "poetic": 5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

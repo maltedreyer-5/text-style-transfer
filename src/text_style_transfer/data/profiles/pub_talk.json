@@ -1,0 +1,31 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "pub_talk",
+  "name": "Pub talk",
+  "labels": {
+    "en": "🍺 Pub talk",
+    "de": "🍺 Stammtisch"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -7,
+    "cefr_level": "A2",
+    "direct": 8,
+    "emotional": 6,
+    "formal": -10,
+    "nominal": -8,
+    "personal": 8,
+    "polite": -5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

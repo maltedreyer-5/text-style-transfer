@@ -1,0 +1,44 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "edgar_wallace",
+  "name": "Edgar Wallace (crime thriller)",
+  "labels": {
+    "en": "📜 Edgar Wallace (crime thriller)",
+    "de": "📜 Edgar Wallace (Kriminalroman)"
+  },
+  "language": "en",
+  "sliders": {
+    "cheerful": -5,
+    "direct": 5,
+    "dramatic": 8,
+    "length": -3,
+    "objective": 3
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin",
+  "descriptions": {
+    "en": "British crime-thriller prose of the 1920s in the manner of Edgar Wallace: brisk pace, short paragraphs, the immediacy of dialogue, sentences that end on a hook, crisp descriptions of places and people, an atmosphere of mystery and menace without graphic detail. Keep paragraphs short and end them on a point of suspense where the source text allows it. Describe people and places in a few crisp, concrete strokes.",
+    "de": "Britische Kriminalprosa der 1920er Jahre nach Art Edgar Wallaces: zügiges Tempo, kurze Absätze, die Unmittelbarkeit von Dialogen, Sätze, die auf einem Haken enden, knappe Beschreibungen von Orten und Personen, eine Atmosphäre von Rätsel und Bedrohung ohne drastische Details. Absätze kurz halten und, wo der Ausgangstext es zulässt, mit einem Spannungsmoment enden lassen; Personen und Orte mit wenigen knappen, konkreten Strichen beschreiben."
+  },
+  "metrics": {
+    "sentence_length_mean": 14.802,
+    "sentence_length_sd": 11.32,
+    "sentences_per_paragraph": 2.037,
+    "word_length_mean": 4.275,
+    "mattr": 0.805,
+    "commas_per_sentence": 1.07,
+    "question_share": 0.103,
+    "exclamation_share": 0.041,
+    "dialogue_share": 0.408,
+    "words_measured": 297979.0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "poem",
+  "name": "Poem / lyric",
+  "labels": {
+    "en": "🎭 Poem / lyric",
+    "de": "🎭 Gedicht / Lyrik"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -4,
+    "emotional": 8,
+    "poetic": 10,
+    "structured": -5
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

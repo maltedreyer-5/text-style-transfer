@@ -1,0 +1,28 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "nostalgic_story",
+  "name": "Nostalgic story",
+  "labels": {
+    "en": "👴 Nostalgic story",
+    "de": "👴 Nostalgische Erzählung"
+  },
+  "language": null,
+  "sliders": {
+    "abstract": -6,
+    "emotional": 7,
+    "length": 5,
+    "nostalgic": 10,
+    "poetic": 6
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}

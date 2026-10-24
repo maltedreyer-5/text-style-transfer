@@ -1,0 +1,156 @@
+{
+  "code": "fr",
+  "endonym": "Français",
+  "english_name": "French",
+  "decimal_separator": ",",
+  "group_separators": [
+    " ",
+    " ",
+    " ",
+    "."
+  ],
+  "quotes": [
+    [
+      "«",
+      "»"
+    ],
+    [
+      "“",
+      "”"
+    ],
+    [
+      "\"",
+      "\""
+    ]
+  ],
+  "examples": {
+    "formal.positive": "vouvoiement, phrases complètes, négation complète (« ne … pas »), connecteurs soutenus comme « en outre », « par conséquent »",
+    "formal.negative": "tutoiement, négation sans « ne » (« c’est pas »), « on » au lieu de « nous », particules comme « bon », « du coup », « quoi »",
+    "polite.positive": "« s’il vous plaît », « pourriez-vous », conditionnel de politesse, remerciements, justifications",
+    "polite.negative": "impératifs secs, « vous devez », aucune formule de politesse, reproches directs",
+    "personal.positive": "« je », « nous », « vous » ou « tu » comme sujets",
+    "personal.negative": "« on » impersonnel, « il est … », voix passive, sujets inanimés",
+    "confident.positive": "indicatif, futur, « clairement », aucune réserve",
+    "confident.negative": "conditionnel, « peut-être », « à mon modeste avis »",
+    "hedging": "« pourrait », « semble », « il est possible que », « dans une certaine mesure », conditionnel",
+    "nominal.positive": "nominalisations en -tion, -ment, -ité, « procéder à l’analyse », chaînes de compléments du nom",
+    "nominal.negative": "verbes pleins (« analyser » plutôt que « procéder à l’analyse »), peu de nominalisations",
+    "active.positive": "voix active avec des agents nommés",
+    "active.negative": "passif avec « être » (« a été décidé »), « se faire » + infinitif, « il a été décidé que »",
+    "nostalgic": "imparfait, « autrefois », « à l’époque », « jadis »",
+    "intensifiers": "« très », « extrêmement », « totalement », « à peine », « un peu »",
+    "subjectivity_example": "« L’autrice considère X comme Y »"
+  },
+  "preamble_patterns": [
+    "^(voici|voilà|ci-dessous)\\b.{0,80}:\\s*$",
+    "^(bien sûr|certainement|volontiers|avec plaisir)\\b.{0,80}:\\s*$",
+    "^(bien sûr|certainement|volontiers|avec plaisir)\\s*[!.]?\\s*$",
+    "^(le )?texte (neutralisé|réécrit|transformé|révisé)\\s*:?\\s*$",
+    "^(résultat|réponse)\\s*:\\s*$"
+  ],
+  "trailer_patterns": [
+    "^\\**(remarque|note|explication)\\**\\s*:.*$",
+    "^j['’]ai (réécrit|adapté|neutralisé|transformé)\\b.{0,200}$",
+    "^\\(.{0,200}(adapté|réécrit|neutralisé|transformé).{0,60}\\)$"
+  ],
+  "function_words": [
+    "le",
+    "la",
+    "les",
+    "de",
+    "des",
+    "et",
+    "un",
+    "une",
+    "du",
+    "est",
+    "en",
+    "que",
+    "qui",
+    "dans",
+    "pour",
+    "pas",
+    "sur",
+    "au",
+    "il",
+    "elle",
+    "ne",
+    "se",
+    "ce",
+    "avec",
+    "par",
+    "plus",
+    "nous",
+    "vous",
+    "sont",
+    "aux",
+    "mais",
+    "ou"
+  ],
+  "abbreviations": [
+    "M.",
+    "p. ex.",
+    "Dr.",
+    "cf.",
+    "env."
+  ],
+  "indicators": {
+    "personal": [
+      "je",
+      "j'",
+      "me",
+      "m'",
+      "moi",
+      "mon",
+      "ma",
+      "mes",
+      "nous",
+      "notre",
+      "nos",
+      "tu",
+      "te",
+      "t'",
+      "toi",
+      "ton",
+      "ta",
+      "tes",
+      "vous",
+      "votre",
+      "vos"
+    ],
+    "formal_address": [
+      "vous",
+      "votre",
+      "vos"
+    ],
+    "formal_case_sensitive": false,
+    "familiar_address": [
+      "tu",
+      "te",
+      "t'",
+      "toi",
+      "ton",
+      "ta",
+      "tes"
+    ],
+    "familiar_regex": "",
+    "hedges": [
+      "pourrait",
+      "pourraient",
+      "pourrais",
+      "pourrions",
+      "pourriez",
+      "peut-être",
+      "possiblement",
+      "probablement",
+      "semble",
+      "semblent",
+      "apparemment",
+      "plutôt",
+      "éventuellement",
+      "vraisemblablement",
+      "il se peut"
+    ],
+    "nominal_suffix": "(?:tion|sion|ance|ence|ité|isme)s?$"
+  }
+}

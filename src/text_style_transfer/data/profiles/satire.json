@@ -1,0 +1,27 @@
+{
+  "format": "text-style-profile",
+  "version": 1,
+  "id": "satire",
+  "name": "Satire",
+  "labels": {
+    "en": "🃏 Satire",
+    "de": "🃏 Satire"
+  },
+  "language": null,
+  "sliders": {
+    "confident": 7,
+    "funny": 8,
+    "ironic": 10,
+    "provocative": 8
+  },
+  "neutralization": {
+    "enabled": true,
+    "strength": "normal",
+    "dimensions": [
+      "tone",
+      "register",
+      "redundancy"
+    ]
+  },
+  "origin": "builtin"
+}
